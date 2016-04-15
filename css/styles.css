@@ -1,0 +1,55 @@
+.container-fluid{
+  background-color: yellow;
+  padding: 20px;
+}
+
+.header{
+  background-color: blue;
+  padding: 20px;
+  border: 3px solid black;
+  height: 200px;
+}
+.nav {
+  background-color: green;
+  padding: 20px;
+  border: 3px solid black;
+}
+.content{
+  background-color: red;
+  padding: 20px;
+  border: 3px solid black;
+  height: 300px;
+}
+
+.aside{
+  background-color: aqua;
+  padding: 20px;
+  border: 3px solid black;
+  height: 300px;
+}
+.promo{
+  background-color: orange;
+  padding: 20px;
+  border: 3px solid black;
+  height: 300px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 3px solid black;
+  height: 100px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 768px) {
+  .promo {
+    background-color: gray;
+  }
+}
+/*iPhone 6*/
+@media screen and (max-width: 375px) {
+  .promo {
+    background-color: pink;
+  }
+}
