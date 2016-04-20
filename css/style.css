@@ -1,0 +1,30 @@
+nav {
+  background-color: blue !important;
+}
+
+nav a {
+  color: white !important
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
+
+.bottom-body {
+  min-height: 400px;
+}
+.copyright{
+  display: center-block;
+}
